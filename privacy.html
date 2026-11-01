@@ -2,35 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Privacy Policy | Profit Makers</title>
   <meta name="description" content="How Profit Makers collects and uses personal data under Ghana's Data Protection Act, 2012 (Act 843).">
-  <meta name="theme-color" content="#070b0a">
+  <meta name="theme-color" content="#000815">
   <meta property="og:title" content="Privacy Policy | Profit Makers">
   <meta property="og:description" content="How Profit Makers collects and uses personal data under Ghana's Data Protection Act, 2012 (Act 843).">
   <meta property="og:type" content="website">
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" href="/brand/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
   <header class="site-header">
-    <div class="container nav">
-      <a class="brand" href="/"><img src="/logo.svg" alt="" width="34" height="34">Profit Makers</a>
-      <nav class="nav-links" aria-label="Main">
-        <a href="/#how">How it works</a>
-        <a href="/#pricing">Pricing</a>
-        <a href="/#responsible">Responsible gambling</a>
-        <a href="/#faq">FAQ</a>
-        <a href="/#contact">Contact</a>
-      </nav>
-      <!-- TODO: replace href="#" with your Telegram channel or WhatsApp link (e.g. https://t.me/yourchannel or https://wa.me/233XXXXXXXXX) -->
-      <a class="btn btn-primary btn-sm" href="#">Join waitlist</a>
+    <div class="wrap bar">
+      <a class="brand" href="/" aria-label="Profit Makers home">
+        <img src="/brand/icon.png" alt="" width="36" height="36">
+        <span class="word"><span>PROFIT</span> <span class="gold">MAKERS</span></span>
+      </a>
+      <a class="btn btn-emerald" href="https://profit-makers.pages.dev/login">Log in</a>
     </div>
   </header>
   <main class="legal">
-    <div class="container">
+    <div class="wrap">
       <h1>Privacy Policy</h1>
-      <p class="updated">Last updated: 31 October 2026</p>
+      <p class="updated">Last updated: 1 November 2026</p>
       <p>This Privacy Policy explains how Profit Makers ("we", "us") collects and uses your personal data when you use our website, Telegram channels and services. We process personal data in line with the <strong>Data Protection Act, 2012 (Act 843)</strong> of Ghana.</p>
 
       <h2>1. Data we collect</h2>
@@ -47,7 +45,7 @@
       <h2>3. How we use your data</h2>
       <ul>
         <li>To create and manage your account and deliver the predictions you buy</li>
-        <li>To send booking codes, VIP updates and renewal reminders by SMS, email or Telegram</li>
+        <li>To deliver the tips you buy, and service messages about that purchase, by SMS or email</li>
         <li>To process payments, refunds and customer support requests</li>
         <li>To prevent fraud, abuse and resale of paid content</li>
         <li>To comply with legal and accounting obligations</li>
@@ -80,32 +78,18 @@
     </div>
   </main>
   <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div>
-          <a class="brand" href="/"><img src="/logo.svg" alt="" width="34" height="34">Profit Makers</a>
-          <p>Data-driven football analysis and premium predictions for adults in Ghana. Pay with MoMo or card via Paystack.</p>
-        </div>
-        <div>
-          <strong style="color:var(--text)">Legal</strong>
-          <div class="footer-links" style="flex-direction:column;margin-top:8px">
-            <a href="/terms">Terms of Service</a>
-            <a href="/refund">Refund Policy</a>
-            <a href="/privacy">Privacy Policy</a>
-          </div>
-        </div>
-        <div>
-          <strong style="color:var(--text)">Contact</strong>
-          <div class="footer-links" style="flex-direction:column;margin-top:8px">
-            <!-- TODO: replace placeholder email -->
-            <a href="mailto:hello@profitmakers.example">hello@profitmakers.example</a>
-            <!-- TODO: replace placeholder phone number -->
-            <a href="tel:+233000000000">+233 00 000 0000</a>
-            <span>Accra, Ghana</span>
-          </div>
-        </div>
-      </div>
-      <p class="disclaimer"><strong>18+ only.</strong> Profit Makers sells sports analysis and predictions (opinions), not bets. We are not a bookmaker, we do not accept bets and we do not hold customer stakes. Predictions are never guaranteed; past results do not predict future outcomes. Please gamble responsibly and only with money you can afford to lose.<br>&copy; <span id="year">2026</span> Profit Makers. All rights reserved.</p>
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="Profit Makers home">
+        <img src="/brand/icon.png" alt="" width="36" height="36">
+        <span class="word"><span>PROFIT</span> <span class="gold">MAKERS</span></span>
+      </a>
+      <p><span class="age">18+</span> · Not a bookmaker · Only stake what you can lose.</p>
+      <nav class="foot-links" aria-label="Legal">
+        <a href="/terms">Terms</a>
+        <a href="/refund">Refunds</a>
+        <a href="/privacy">Privacy</a>
+      </nav>
+      <p class="copy">&copy; <span id="year">2026</span> Profit Makers</p>
     </div>
   </footer>
   <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
